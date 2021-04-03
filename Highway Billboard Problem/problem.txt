@@ -1,0 +1,4 @@
+Suppose that you are on a road that is on a line and there are certain places where you can put adver-tisements and earn money.
+The possible locations for the ads are x1, x2, …, xn. The length of the road is M kilometers. The money you earn for an ad at location xi is ri > 0.
+Your restriction is that you have to place your ads within a distance more than 4 kilometers from each other.
+Design a dynamic programming algorithm that gives the combination of ad placements such that you maximize your total money earned.
