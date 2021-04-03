@@ -1,0 +1,4 @@
+Suppose that you have a knapsack problem.
+You are given N items of weights 𝑤1, 𝑤2,… 𝑤n and their values are 𝑣1, 𝑣2, …, 𝑣n, respectively.
+The knapsack has capacity 𝑊. Your goal is to find the most valuable subset of the items that fit into the knapsack.
+You can pick from each item as many as you can.
