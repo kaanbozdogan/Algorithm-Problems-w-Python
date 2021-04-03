@@ -1,0 +1,11 @@
+Problem:
+Unlike classical definition of inversion, consider the case where an inversion is a pair i < j such that xi > 2*xj in a given list of numbers x1, …, xn.
+Find the number of incersions in an array.
+
+
+Solution:
+We can recursively control every next index after an index and find invversions like that but it takes O(n^2) time to do so.
+We implement inversion control in merge sort. While merging 2 arrays, let i be the first index of left array and j be the first index of right array.
+Since always i < j, if f arr[i] > 2 * arr[j] then we can say every index from arr[i] to arr[j-1] > 2 * arr[j] because left and right arrays are sorted before merge.
+If we implement standart merge sort algorithm by using that knowledge we can calculate the number of inversions in the array in merge sort’s time complexity.
+Which is O(n log n).
