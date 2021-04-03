@@ -1,0 +1,2 @@
+Palindromic: Remains the same when read forward and backward.
+Design a dynamic programming algorithm to find the longest palindromic substring in a string.
