@@ -1,1 +1,2 @@
-Suppose that you have a set of integers arranged in the form of a triangle. Your aim is to find the smallest sum path from the triangle apex to its base through a sequence of adjacent numbers.
+Suppose that you have a set of integers arranged in the form of a triangle.
+Your aim is to find the smallest sum path from the triangle apex to its base through a sequence of adjacent numbers.
